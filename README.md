@@ -5,7 +5,7 @@ until no more moves are allowed. The goal is to empty the grid while obtaining t
 
 This application can be executed in a terminal session or in a GUI. The GUI has been made with JavaFX.
 
-![SameGame logo](/SameGame/ressources/sameGame-pic.jpg)
+![SameGame logo](/ressources/sameGame-pic.jpg)
 
 ## Getting started
 
