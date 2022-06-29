@@ -25,18 +25,18 @@ shows:
 
 To run it in the terminal:
 ```
-[~/56080-atlg3/SameGame] make
-[~/56080-atlg3/SameGame] make exec-c
+[~/SameGame] make
+[~/SameGame] make exec-c
 ```
 
 To run it using the GUI
 ```
-[~/56080-atlg3/SameGame] make exec-fx
+[~/SameGame] make exec-fx
 ```
 
 You can also generate the documentation of the project using the following command:
 ```
-[~/56080-atlg3/SameGame] make doc
+[~/SameGame] make doc
 ```
 
 ### Maven
@@ -47,16 +47,16 @@ some command using the java interpreter as the following examples demonstrates:
 
 To run it in the terminal:
 ```
-[~/56080-atlg3/SameGame] mvn compile
-[~/56080-atlg3/SameGame] java -cp target/classes g56080.same.AppConsole
+[~/SameGame] mvn compile
+[~/SameGame] java -cp target/classes g56080.same.AppConsole
 --------------- Or
-[~/56080-atlg3/SameGame] mvn build
-[~/56080-atlg3/SameGame] java -jar target/SameGame-1.0.jar
+[~/SameGame] mvn build
+[~/SameGame] java -jar target/SameGame-1.0.jar
 ```
 
 And using the GUI:
 ```
-[~/56080-atlg3/SameGame] mvn javafx:run
+[~/SameGame] mvn javafx:run
 ```
 
 ### Using the javac and java terminal tools
@@ -67,14 +67,14 @@ __command line tools__ provided by the JDK as the following examples shows:
 
 To run it in the terminal:
 ```
-[~/56080-atlg3/SameGame] javac @gen-cls --module-path $JFXHOME
-[~/56080-atlg3/SameGame] java -cp target/classes g56080.same.AppConsole
+[~/SameGame] javac @gen-cls --module-path $JFXHOME
+[~/SameGame] java -cp target/classes g56080.same.AppConsole
 ```
 
 And using the GUI:
 ```
-[~/56080-atlg3/SameGame] javac @gen-cls --module-path $JFXHOME
-[~/56080-atlg3/SameGame] java --module-path $JFXHOME --add-modules javafx.controls,javafx.graphics g56080.same.AppFX
+[~/SameGame] javac @gen-cls --module-path $JFXHOME
+[~/SameGame] java --module-path $JFXHOME --add-modules javafx.controls,javafx.graphics g56080.same.AppFX
 ```
 
 The _$JFXHOME_ is the path to the `lib/` directory of your javafx
