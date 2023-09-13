@@ -63,7 +63,6 @@ And using the GUI:
 ```
 
 ### Using the javac and java terminal tools
--------------------------------------------
 
 Finally, it is also possible to run the application only using the
 __command line tools__ provided by the JDK as the following examples shows:
