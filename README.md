@@ -10,7 +10,6 @@ This application can be executed in a terminal session or in a GUI. The GUI has 
 ## Getting started
 
 ### Makefile
-------------
 
 The project __makefile__ defines several directives:
 
@@ -24,29 +23,32 @@ To run the application you can use the makefile's directives as the following ex
 shows:
 
 To run it in the terminal:
-```
+
+```bash
 [~/SameGame] make
 [~/SameGame] make exec-c
 ```
 
 To run it using the GUI
-```
+
+```bash
 [~/SameGame] make exec-fx
 ```
 
 You can also generate the documentation of the project using the following command:
-```
+
+```bash
 [~/SameGame] make doc
 ```
 
 ### Maven
----------
 
 It is also possible to run the application using the __maven__ project manager combined with 
 some command using the java interpreter as the following examples demonstrates:
 
 To run it in the terminal:
-```
+
+```bash
 [~/SameGame] mvn compile
 [~/SameGame] java -cp target/classes g56080.same.AppConsole
 --------------- Or
@@ -55,7 +57,8 @@ To run it in the terminal:
 ```
 
 And using the GUI:
-```
+
+```bash
 [~/SameGame] mvn javafx:run
 ```
 
@@ -66,13 +69,15 @@ Finally, it is also possible to run the application only using the
 __command line tools__ provided by the JDK as the following examples shows:
 
 To run it in the terminal:
-```
+
+```bash
 [~/SameGame] javac @gen-cls --module-path $JFXHOME
 [~/SameGame] java -cp target/classes g56080.same.AppConsole
 ```
 
 And using the GUI:
-```
+
+```bash
 [~/SameGame] javac @gen-cls --module-path $JFXHOME
 [~/SameGame] java --module-path $JFXHOME --add-modules javafx.controls,javafx.graphics g56080.same.AppFX
 ```
